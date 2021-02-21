@@ -1,1 +1,2 @@
 # naive_bayes
+The code in this repository is a sample program for an spam email detection algorithm. It implements two meathods of detection, a unigram model and a bigram model. The unigram uses each individual word in a training set of labeled emails to builds a likelyhood model. The bigram implementation uses the unigram likelyhood model as well as a bigram (two word combination) likelyhood model to predict the label for a testing dataset. The accuracy of the unigram model was 95% accurate from my testing, and the bigram model was 96% accuract from my testing.
